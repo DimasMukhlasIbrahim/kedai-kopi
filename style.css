@@ -1,0 +1,718 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #000000;
+}
+
+/* id */
+/* #hamburger {
+    display: inline-block;
+} */
+
+
+/* navbar */
+.navbar {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+}
+
+/*navbar-logo*/
+.navbar .navbar-logo {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 2.5rem;
+    font-size: 4vw;
+    max-width: 80%;
+    /* background-color: antiquewhite; */
+}
+
+.navbar .navbar-logo span {
+    color: #b6895b;
+}
+
+ /* navbar-nav */
+.navbar .navbar-nav {
+    display: none;
+}
+
+
+/* .navbar .navbar-nav {
+    position: absolute;
+    right: -60vw;
+    margin-top: 130%;
+    background-color: #960019;
+    list-style: none;
+    -webkit-transition: right 0.5s;
+    z-index: 7777;
+    width: 60vw;
+    height: 120vw;
+    text-decoration: none;
+    list-style: none;
+}
+
+ .slide-navbar-nav-tampil{
+    right: 0 !important;
+} */
+/* .navbar .navbar-nav ul {
+margin-left: -2vh;
+margin-block-start: -5.5vw;
+
+}
+
+.navbar .navbar-nav a {
+    
+    color: white;
+    display: block;
+    font-size: 5vw;
+    /* background-color: aqua; */
+    /* font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    line-height: 15vw;
+    padding:8vw;
+    border-bottom: 0.5vw solid rgb(0, 0, 0);
+    border-right: 2px solid black;
+   text-align: center;
+} */
+
+/* .navbar .navbar-nav a:hover {
+    color: #b6895b;
+    transition-duration: 1s;
+} */ */
+
+
+/* navbar-ekstra */
+.navbar .navbar-ekstra {
+    margin: 2.5rem;
+}
+.navbar .navbar-ekstra a {
+    color: white;
+    background-color: black;
+    padding: 0.8rem;
+    font-size: 0.2vw;
+}
+
+.navbar .navbar-ekstra a:hover {
+    color: #b6895b;
+    transition-duration: 1s;
+
+}
+
+
+
+/* hero section */
+.hero {
+background-image: url(assets/header-bg.jpg);
+width: 100%;
+height: 65vw;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+object-fit: cover;
+display: flex;
+}
+
+.hero .gradient {
+    width: 100%;
+    height: 20vw;
+    margin-block-start: 45.2vw;
+    position: absolute;
+    background-image: linear-gradient(0deg, rgba(1, 1, 3, 1) 15%,
+    rgba(238, 28, 28, 0) 50%);
+
+}
+
+/* hero text */
+.hero .text {
+font-family: 'poppins' sans-serif;
+color: white;
+align-items: center;
+display: flex;
+padding: 0 7vh 0 0;
+margin-left: 4vw;
+max-height: 58vw;
+margin-top: -2vw;
+}
+
+.hero .text h1 {
+    /* background-color: aqua; */
+    display: block;
+    font-size: 6vw;
+    letter-spacing: 5px;
+}
+
+.hero .text h1 span {
+    color: #b6895b;
+
+}
+
+/* hero text p */
+.hero .text p {
+    font-weight: 100;
+    mix-blend-mode: difference;
+    /* background-color: blue; */
+    font-size: 2vw;
+   margin-top: -4vw;
+}
+
+/* hero text a */
+
+.hero .text a  {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #b6895b;
+    font-size: 2.5vw;
+    padding: 1vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-sizing: content-box;
+   }
+
+   .hero .text a:hover {
+       color: #960019;
+       transition-duration:1s ;
+   }
+
+
+   /* section about */
+
+/* about body */
+.about {
+color: white;
+   }
+
+ /* about header*/ 
+.about h2  {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+    /* background-color: #960019; */
+    margin-bottom: 2rem;
+    padding: 3vw;
+}
+
+.about h2 span {
+    color: #b6895b;
+}
+
+/* about body content */
+.about .main {
+    display: flex;
+    flex-direction: row;
+}
+
+.about  .img {
+    /* background-color: gray; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vw;
+}
+
+
+/* about-img */
+.about .main img {
+width: 100%;
+}
+
+/* abouot content text */
+.about .deskripsi {
+    /* background-color: rgb(212, 120, 0); */
+    margin-left: 3vw;
+    margin-right: 5vw;
+    height: 63vw;
+    overflow: auto;
+}
+
+.about .deskripsi h3 {
+    font-size: 6.5vw;
+    margin :3vw 0 5vw 0;
+}
+
+.about .deskripsi p {
+    font-weight: 100;
+    margin-top: -0.5rem;
+    width: 85vw;
+}
+
+
+/* menu section */
+
+/* menu header */
+.menu .header {
+    margin-top: 90vw;
+    /* background-color: #960019; */
+    color: white;
+    text-align: center;
+    padding: 3vw;
+    padding-bottom:8vw ;
+}
+
+.menu .header h2 {
+    font-family: 'poppins', sans-serif;
+    font-size: 3vw;
+    line-height: 1.5vw;
+}
+
+.menu .header h2 span {
+    color: #b6895b;
+}
+.menu .header p {
+
+    font-family: 'poppins', sans-serif;
+    margin: auto;
+    font-size: 2vw;
+    width: 40vw;
+    font-weight: 100;
+}
+
+/* menu body */
+.menu .row {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu .row .menu-card {
+    flex-wrap: wrap;
+    /* background-color: #960019; */
+}
+
+
+/* menu img */
+.menu .row .menu-card img {
+    border-radius: 50%;
+    max-width: 15vh;
+    margin: 4vw;
+}
+
+
+/* menu body text */
+.menu .row .menu-card-title {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
+
+.menu .row .menu-card-price {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
+
+
+/* contact section */
+
+/* contact all */
+.contact {
+    color: white;
+}
+
+/* contact header */
+.contact .header {
+    /* background-color: #960019; */
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    padding: 3vw;
+    margin-block-start: 20vw;
+}
+
+.contact .header h2 {
+    font-size: 3vw;
+}
+
+.contact .header h2 span {
+    color: #b6895b;
+}
+
+.contact .header p {
+    font-size: 2vw;
+    width: 40vw;
+    font-weight: 100;
+    margin: auto;
+}
+
+/* contact content */
+.contact .content {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7vw;
+    background-color: #222;
+    width: 85vw;
+}
+/* contact img */
+.contact .content iframe {
+    width: 85vw;
+    height: 40vw;
+}
+
+/* contact input */
+.contact .content .content-text {
+    text-align: center;
+    width: 85vw;
+    margin-top: 5vw;
+    margin-left: 1.5vw;
+}
+
+.contact .content  .input-group  {
+    background-color: #000000;  
+    margin: 5vw;
+    box-sizing: border-box;
+    border: 1px solid white;
+    line-height: 5vw;
+}
+
+.contact .content .input-group .logo {
+    margin: 0 1vw -0.6vw;
+    font-size: 0.2vw;
+}
+
+.contact .content .input-group .input {
+    text-align: center;
+    margin-bottom: 1.5vw;
+    width: 80%;
+}
+
+/* contact button */
+.contact .content .button {
+    padding: 1.5vw ;
+    margin-block-end: 5vw;
+    display: block;
+
+}
+
+.contact .content .button a{
+color: white;
+border: 2px solid black;
+font-size: 3vw;
+padding: 2.5vw  5vw;
+background-color:#b6895b;
+border-radius: 0.8rem;
+text-decoration: none;
+}
+
+.contact .content .button a:hover {
+    color: #960019;
+    transition-duration: 1s;
+}
+
+
+/* footer*/
+.footer {
+    width: 100%;
+    position: absolute;
+    background-color: #b6895b;
+    text-align: center;
+}
+/* sosmed footer */
+.footer .sosmed {
+    padding: 2vw;
+    
+}
+
+.footer .sosmed a  {
+    color: white;
+    padding: 1vw;
+}
+
+.footer .sosmed a:hover {
+    color:#960019;
+    transition-duration: 1s;
+}
+
+
+/* link footer */
+.footer .link {
+    margin-bottom:1vw;
+}
+.footer .link a {
+    color: white;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+    align-items: center;
+    font-size: 1vw;
+    margin: 0.5vw;
+}
+
+.footer .link a:hover {
+    color:#960019;
+    transition-duration: 1s;
+}
+/* credit footer */
+.footer .credit a {
+    color: white;
+}
+
+.footer .credit {
+    font-family: 'poppins', sans-serif;
+    font-size: 1vw;
+}
+/* media queries */
+
+/* laptop */
+@media (min-width: 1024px) and (max-width:9999px) {
+    html {
+      font-size: 75%;
+    }
+
+/* id */
+#hamburger {
+    display: none;
+}
+
+/* .navbar .navbar-nav  {
+    display:inline-block;
+} */
+/* navbar */
+    /*navbar-logo*/
+.navbar .navbar-logo {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 2.5rem;
+    font-size: 2.5em;
+    max-width: 80%;
+    /* background-color: antiquewhite; */
+}
+
+.navbar .navbar-logo span {
+    color: #b6895b;
+}
+
+/* navbar-nav */
+.navbar .navbar-nav {
+    position: absolute;
+    background-color: #960019;
+    display: flex;
+    list-style: none;
+    width: 55vw;
+    height: 5vw;
+   margin-block-end: 162vw;
+    
+    background-color: #000000;
+    right: 5vw;
+}
+
+.navbar .navbar-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .navbar-nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 1.2rem;
+    list-style: none;
+    font-size: 1.5vw;
+    font-family: 'poppins',sans-serif;
+    border: none;
+    /* background-color: #960019; */
+}
+
+.navbar .navbar-nav ul a:hover {
+    color: #b6895b;
+    transition-duration: 1s;
+    padding: 0;
+    padding-right: vw;
+    padding-top: 1vw;
+    background-color: aqua;
+}
+
+/* navbar */
+
+/* hero section */
+.hero .text ul h1 {
+    font-size: 7.5vw;
+    width: 90%;
+}
+
+.hero .text ul p {
+    margin-top: -5rem;
+    max-width: 75%;
+    /* background-color: blue; */
+}
+
+/* hero text a */
+.hero .text a  {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #b6895b;
+    font-size: 3vw;
+    padding: 1vw;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-sizing: content-box;
+   }
+
+   .hero .text a:hover {
+       color: #960019;
+       transition-duration:1s ;
+   }
+
+
+   /* about section */
+/* about body content */
+.about .main {
+    /* background-color: #960019; */
+}
+
+.about  .img {
+    /* background-color: gray; */
+}
+
+
+/* about-img */
+.about .main img {
+width: 55%;
+height: 30vw;
+display: flex;
+position: absolute;
+background-size: cover;
+object-fit: cover;
+margin-left: 2vw;
+}
+
+/* abouot content text */
+.about .main .deskripsi {
+    /* background-color: rgb(212, 120, 0); */
+    width: 36vw;
+    margin-left: 59vw;
+    z-index: 5555;
+    height: 30vw;
+}
+
+.about .deskripsi h3 {
+    /* background-color: aqua; */
+    font-size: 2.5vw;
+     font-family: 'poppins', sans-serif;
+     margin-top: 0;
+}
+
+.about .deskripsi .text {
+    /* background-color: green; */
+    margin-top: -3vw;
+}
+
+.about .deskripsi p {
+    /* background-color: blue; */
+    font-family: 'poppins', sans-serif;
+    font-weight: 100;
+    width: 35vw;
+    margin-block-start: -0vw;
+}
+
+
+/* menu section */
+/* menu img */
+.menu .row .menu-card img {
+    border-radius: 50%;
+    max-width: 40vh;
+    margin: 4vw;
+}
+
+/* contact section */
+/* contact content */
+.contact .content {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 8vw;
+    background-color: #222;
+}
+
+/* contact img */
+.contact .content iframe {
+    width: 45vw;
+    height: 47vw;
+}
+
+/* contact input */
+.contact .content .content-text {
+    text-align: center;
+    width: 45vw;
+    /* background-color: #960019; */
+    margin-left: -2.5vw;
+}
+
+.contact .content  .input-group  {
+    background-color: #000000; 
+    box-sizing: border-box;
+    border: 1px solid white;
+    line-height: 5vw;
+    margin-top: -2.5vw;
+    /* background-color: aqua; */
+}
+
+.contact .content .input-group .logo {
+    margin: 0 1vw -0.6vw;
+    font-size: 0.2vw;
+}
+
+.contact .content .input-group .input {
+    text-align: center;
+
+}
+
+.contact .content .button a{
+    color: white;
+    border: 2px solid black;
+    font-size: 2vw;
+    padding: 2.5vw 5vw;
+    background-color:#b6895b;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    }
+
+
+
+  /* tablet */
+@media(max-width:1023px) and (min-width:1px){
+    html {
+      font-size: 1rem, 62%;
+    }
+
+    /* hero section */
+     .text ul h1 {
+        font-size: 10vw;
+        color: rgb(215, 250, 234);
+    }
+  }
+
+      /* navbar section */
+.navbar .navbar-nav {
+    margin-top: 160vw;
+}
+
+/* menu section */
+.menu   {
+    margin-top: -80vw;
+}
+
+  /* mobile phone */
+  @media(max-width: 767px) and (min-width:100px) {
+
+    .hero .text ul h1 {
+        font-size: 2em;
+    }
+
+    /* navbar */
+    .navbar .navbar-nav {
+        display: inline-block;
+    }
+
+/* contact section */
+
+  }
+}
